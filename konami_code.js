@@ -7,7 +7,7 @@ function init() {
 
   const main = document.body;
 
-  main.addEventListener('keydown', function(e)) {
+  main.addEventListener('keydown', function(e) {
     const key = parseInt(e.detail || e.which);
 
     if (key === alphabet[index]) {
@@ -20,7 +20,7 @@ function init() {
       }
     } else {
       index = 0;
-    }
+    })
   }
 
 
